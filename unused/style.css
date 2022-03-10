@@ -116,6 +116,8 @@ button {
   margin-right: 10px;
   margin-top: 20px;
   position: relative;
+  float: right;
+  display: flex;
 }
 
 button:hover {
@@ -126,7 +128,7 @@ button:hover {
 /*  fhfhdc */
 
 .wrapper-main {
-  max-width: 500px;
+  max-width: 1500px;
   width: 100%;
   background: rgb(14, 0, 136);
   margin: 20px auto;
@@ -141,22 +143,25 @@ button:hover {
   text-transform: uppercase;
   text-align: center;
 }
-.wrapper-main .forms {
+.wrapper-main .form {
+  max-width: 900px;
+  height: auto;
   width: 100%;
+  padding: 20px;
 }
-.wrapper-main .forms .input_field {
+.wrapper-main .form .input_field {
   margin-bottom: 15px;
   display: flex;
   align-items: center;
 }
-.wrapper-main .forms .input_field label {
+.wrapper-main .form .input_field label {
   width: 200px;
   color: #757575;
   margin-right: 10px;
   font-size: 14px;
 }
-.wrapper-main .forms .input_field .input,
-.wrapper-main .forms .input_field .textarea {
+.wrapper-main .form .input_field .input,
+.wrapper-main .form .input_field .textarea {
   width: 100%;
   outline: none;
   border: 1px solid #bbc2c0;
@@ -165,15 +170,15 @@ button:hover {
   border-radius: 3px;
   transition: all 0.3s ease;
 }
-.wrapper-main .forms .input_field .textarea {
+.wrapper-main .form .input_field .textarea {
   resize: none;
   height: 125px;
 }
-.wrapper-main .forms .input_field .input:focus,
-.wrapper-main .forms .input_field .textarea:focus {
+.wrapper-main .form .input_field .input:focus,
+.wrapper-main .form .input_field .textarea:focus {
   border: 1px solid #fec107;
 }
-.wrapper-main .forms .input_field .btn {
+.wrapper-main .form .input_field .btn {
   width: 100%;
   padding: 8px 10px;
   font-size: 15px;
@@ -184,11 +189,11 @@ button:hover {
   border-radius: 3px;
   outline: none;
 }
-.wrapper-main .forms .input_field:last-child {
+.wrapper-main .form .input_field:last-child {
   margin-bottom: 0;
 }
 
-.wrapper-main .forms .input_field .btn:hover {
+.wrapper-main .form .input_field .btn:hover {
   background: #ffd658;
 }
 
@@ -329,23 +334,25 @@ button:hover {
     color: #fec107;
     text-transform: uppercase;
     text-align: center;
+    margin-bottom: 0;
   }
-  .wrapper-main .forms {
-    width: 100%;
+  .section-default {
+    max-width: 500px;
+    margin: 0 150px 0 150px;
   }
-  .wrapper-main .forms .input_field {
+  .section-default .form .input_field {
     margin-bottom: 15px;
     display: flex;
     align-items: center;
   }
-  .wrapper-main .forms .input_field label {
+  .section-default .form .input_field label {
     width: 200px;
     color: #757575;
     margin-right: 10px;
     font-size: 14px;
   }
-  .wrapper-main .forms .input_field .input,
-  .wrapper-main .forms .input_field .textarea {
+  .section-default .form .input_field .input,
+  .section-default .form .input_field .textarea {
     width: 100%;
     outline: none;
     border: 1px solid #bbc2c0;
@@ -354,15 +361,15 @@ button:hover {
     border-radius: 3px;
     transition: all 0.3s ease;
   }
-  .wrapper-main .forms .input_field .textarea {
+  .section-default .form .input_field .textarea {
     resize: none;
     height: 125px;
   }
-  .wrapper-main .forms .input_field .input:focus,
-  .wrapper-main .forms .input_field .textarea:focus {
+  .section-default .form .input_field .input:focus,
+  .section-default .form .input_field .textarea:focus {
     border: 1px solid #fec107;
   }
-  .wrapper-main .forms .input_field .btn {
+  .section-default .form .input_field .btn {
     width: 100%;
     padding: 8px 10px;
     font-size: 15px;
@@ -373,11 +380,11 @@ button:hover {
     border-radius: 3px;
     outline: none;
   }
-  .wrapper-main .forms .input_field:last-child {
+  .section-default .form .input_field:last-child {
     margin-bottom: 0;
   }
 
-  .wrapper-main .forms .input_field .btn:hover {
+  .section-default .form .input_field .btn:hover {
     background: #ffd658;
   }
 }

@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(28, 15, 211);
+  color: #ffffff;
+  padding: 12px;
+  max-width: 1500px;
+  height: auto;
+}
+header {
+  width: 100%;
+  top: 5px;
+}
+
+.nav_header {
+  max-width: 1500px;
+  color: #fefefe;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1px;
+  background: #0cc4ba;
+  margin-top: 2px;
+  top: 5px;
+}
+.nav_header img {
+  width: 200px;
+  background: #0cc4ba;
+}
+
+.nav_header ul {
+  max-width: 1000px;
+  margin: 0;
+  display: flex;
+  list-style: none;
+  padding: 8px;
+  text-decoration: none;
+}
+.nav_header ul li {
+  padding: 12px;
+}
+.nav_header a {
+  margin-left: 20px;
+  color: #e00b0be0;
+  text-decoration: none;
+  width: 100%;
+  cursor: pointer;
+  font-size: 22px;
+}
+.header_login {
+  max-width: 500px;
+  width: 100%;
+  display: flex;
+  padding: 12px;
+  margin-left: 50px;
+}
+.header_login a {
+  width: 100%;
+  padding: 12px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.wrapper_main {
+  max-width: 600px;
+  margin-left: 150px;
+  margin-right: 150px;
+  height: 300px;
+  box-sizing: border-box;
+  background: rgb(137, 228, 220);
+
+  margin-top: 0;
+}
+
+.section_default {
+  max-width: 600px;
+  margin-left: 1px;
+  margin-right: 1px;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background: rgb(13, 0, 128);
+  box-sizing: border-box;
+}
+
+.section_default h1 {
+  justify-content: center;
+  align-items: center;
+  color: #ff0;
+  max-width: 500px;
+  box-sizing: border-box;
+  font-size: 26px;
+  padding-top: 2px;
+}
+.section_default .error {
+  color: #eb0404;
+  font-size: 18px;
+  padding: 6px;
+}
+
+.section_default form {
+  max-width: 600px;
+  height: 300px;
+  background: rgb(41, 216, 201);
+  color: #ffffff;
+  padding: 12px;
+  border: none;
+}
+.section_default form input {
+  padding-top: 3px;
+  height: 58px;
+  border: 0 0 5px 0 solid #eb0404;
+  outline: none;
+  width: 580px;
+  padding-left: 6px;
+  margin: 1px;
+}
+.section_default button {
+  padding: 12px;
+  cursor: pointer;
+}
+.section_default button:hover {
+  background: #8c8eff;
+}
+.section_default .b p {
+  position: absolute;
+  color: #fff;
+}
+.section_default .b a {
+  color: #fff;
+
+  padding: 6px;
+  padding-top: 20px;
+}
+.main {
+  background: #fff;
+}
+.form_control {
+  max-width: 600px;
+  height: 180px;
+  margin-left: 150px;
+  margin-right: 200px;
+  background: rgb(13, 0, 128);
+}
+
+.form_control h1 {
+  color: #ff0;
+  align-content: center;
+  justify-self: center;
+}
+
+.form_control p {
+  color: #ff0;
+}
+
+.form_control .error {
+  padding: 10px;
+  color: #eb0404;
+  font-size: 20px;
+}
+
+.form_control form {
+  max-width: 600px;
+  /* background: #eb0404; */
+  height: 100%;
+}
+.form_control form input {
+  width: 590px;
+  margin-left: 4px;
+  height: 60px;
+  margin-top: 2px;
+  padding: 8px;
+  outline: none;
+}
+.form_control button {
+  padding: 12px;
+  margin-top: 8px;
+  margin-left: 4px;
+  cursor: pointer;
+  color: rgb(13, 0, 128);
+}
+.form_control button:hover {
+  background: rgb(13, 0, 128);
+  color: #fff;
+}
+.form_control .c {
+  padding: 20px;
+  font-size: 24px;
+  color: #fff;
+}
+.form_control a {
+  padding: 20px;
+  font-size: 24px;
+  color: #fff;
+  margin-top: 4px;
+}
+
+.header_login .form_control_logout form button {
+  background: #0cc4ba;
+  color: #eb0404;
+  padding: 12px;
+  margin: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  display: flex;
+  right: 0;
+}
+.header_login .form_control_logout form button:hover {
+  background-color: #eb0404;
+  color: rgb(13, 0, 128);
+}
